@@ -1,51 +1,46 @@
-# Introduction to GitHub
-
-_Get started using GitHub in less than an hour._
-
-## Welcome
-
-People use GitHub to build some of the most advanced technologies in the world. Whether you’re visualizing data or building a new game, there’s a whole community and set of tools on GitHub that can help you do it even better. GitHub Skills’ “Introduction to GitHub” exercise guides you through everything you need to start contributing in less than an hour.
-
-- **Who is this for**: New developers, new GitHub users, and students.
-- **What you'll learn**: We'll introduce repositories, branches, commits, and pull requests.
-- **What you'll build**: We'll make a short Markdown file you can use as your [profile README](https://docs.github.com/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme).
-- **Prerequisites**: None. This exercise is a great introduction for your first day on GitHub.
-- **How long**: This exercise takes less than one hour to complete.
-
-In this exercise, you will:
-
-1. Create a branch
-2. Commit a file
-3. Open a pull request
-4. Merge your pull request
-
-### How to start this exercise
-
-1. Right-click **Copy Exercise** and open the link in a new tab.
-
-   <a id="copy-exercise">
-      <img src="https://img.shields.io/badge/📠_Copy_Exercise-AAA" height="25pt"/>
-   </a>
-
-2. In the new tab, most of the prompts will automatically fill in for you.
-   - For owner, choose your personal account or an organization to host the repository.
-   - We recommend creating a public repository, as private repositories will [use Actions minutes](https://docs.github.chttps://github.com/solowebstudio/Food-ordering-website-/billing/managing-billing-for-github-actions/about-billing-for-github-actions).
-   - Scroll down and click the **Create repository** button at the bottom of the form.
-
-3. After your new repository is created, wait about 20 seconds for the exercise to be prepared and buttons updated. You will continue working from your copy of the exercise.
-   - The **Copy Exercise** button will deactivate, changing to gray.
-   - The **Start Exercise** button will activate, changing to green.
-   - You will likely need to refresh the page.
-
-4. Click **Start Exercise**. Follow the step-by-step instructions and feedback will be provided as you progress.
-
-   <a id="start-exercise" href="https://github.com/solowebstudio/Food-ordering-website-/issues/1">
-      <img src="https://img.shields.io/badge/🚀_Start_Exercise-008000" height="25pt"/>
-   </a>
-
-> [!IMPORTANT]
-> The **Start Exercise** button will activate after copying the repository. You will probably need to refresh the page.
-
----
-
-&copy; 2025 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NoshNet – Home-Cooked Meals in G-10 & G-11</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f8f8f8; color: #333; }
+    header { background-color: #4CAF50; color: white; padding: 1rem; text-align: center; }
+    .container { padding: 1rem; max-width: 800px; margin: auto; }
+    .chef-card { background: white; border-radius: 8px; padding: 1rem; margin-bottom: 1rem; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+    .chef-name { font-size: 1.25rem; font-weight: bold; }
+    .chef-location { color: #666; font-size: 0.9rem; }
+    .order-btn { display: inline-block; margin-top: 0.5rem; padding: 0.5rem 1rem; background-color: #25D366; color: white; border-radius: 5px; text-decoration: none; font-weight: bold; }
+    footer { text-align: center; padding: 1rem; font-size: 0.8rem; color: #aaa; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>NoshNet</h1>
+    <p>Your Link to Local Home-Cooked Goodness</p>
+  </header>
+  <div class="container">
+    <div class="chef-card">
+      <div class="chef-name">Chef Rida</div>
+      <div class="chef-location">Serving G-10 Islamabad</div>
+      <p>Specialties: Chicken Biryani, Qeema Paratha, Mix Sabzi</p>
+      <a class="order-btn" href="https://wa.me/923000000001" target="_blank">Order from Rida</a>
+    </div>
+    <div class="chef-card">
+      <div class="chef-name">Chef Aunty's Kitchen</div>
+      <div class="chef-location">Serving G-11 Islamabad</div>
+      <p>Specialties: Daal Chawal, Anda Curry, Aloo Qeema</p>
+      <a class="order-btn" href="https://wa.me/923000000002" target="_blank">Order from Aunty</a>
+    </div>
+    <div class="chef-card">
+      <div class="chef-name">Homemade by Saba</div>
+      <div class="chef-location">Serving G-10 Islamabad</div>
+      <p>Specialties: Chicken Karahi, Roti, Fresh Salads</p>
+      <a class="order-btn" href="https://wa.me/923000000003" target="_blank">Order from Saba</a>
+    </div>
+  </div>
+  <footer>
+    © 2025 NoshNet | Built for home chefs and hungry hearts
+  </footer>
+</body>
+</html>
